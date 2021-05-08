@@ -1,3 +1,11 @@
+# Farmer Jane
+
+Help Farmer Jane grow her crops while keeping the weeds at bay!
+
+[Play the Game](https://farmer-jane.netlify.app)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
