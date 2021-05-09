@@ -12,3 +12,13 @@
  * - With each new level, tractor goes faster, plants emerge faster
  * - Object of the game is to get as high a score as possible
  */
+
+import 'phaser'
+
+class Game {
+  constructor(field) {
+    this.field = field
+  }
+}
+
+export default Game
