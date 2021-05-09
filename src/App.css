@@ -33,10 +33,10 @@ main {
 }
   main #field {
     background: repeating-linear-gradient(
-      rgb(120, 72, 12),
-      rgb(120, 72, 12) 1.25rem,
-      rgb(91, 55, 11) 1rem,
-      rgb(91, 55, 11) 1.5rem
+      #78480c,
+      #78480c 1.25rem,
+      #5b370b 1rem,
+      #5b370b 1.5rem
     );
     bottom: 0;
     left: 2rem;
