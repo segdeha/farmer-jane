@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Farmer Jane",
+  "name": "Farmer Jane is a game made with Phaser",
   "icons": [
     {
       "src": "favicon.ico",
