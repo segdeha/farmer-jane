@@ -20,7 +20,9 @@ header, main, footer {
     #5b370b 1rem,
     #5b370b 1.5rem
   );
-  height: 600px;
+  border: solid 0.5rem #5b370b;
+  border-radius: 1rem;
+  height: 596px;
   margin: 1rem auto;
   position: relative;
   width: 800px;
