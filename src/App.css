@@ -44,7 +44,7 @@ header, main, footer {
         padding: 1rem 2rem;
         position: relative;
         text-shadow: 1px -4px 4px rgba(0, 0, 0, 0.33), 0 0 0 #5b370b, -1px 4px 4px rgba(0, 0, 0, 0.33);
-        transition: transform 0.05s;
+        transition: transform 0.1s, opacity 1s;
         -webkit-appearance: none;
     }
         #field button:hover {
@@ -52,6 +52,9 @@ header, main, footer {
         }
         #field button:active {
             top: 0.33rem;
+        }
+        #field button.invisible {
+            opacity: 0;
         }
 
 /* primitives */

@@ -33,11 +33,16 @@ class Game {
                 update: this.update,
             }
         }
-        this.game = new Phaser.Game(config)
+        setTimeout(() => {
+            this.game = new Phaser.Game(config)
+        }, 1100)
     }
     removeButton() {
         const button = this.field.querySelector('button')
-        button.parentNode.removeChild(button)
+        button.classList.add('invisible')
+        setTimeout(() => {
+            button.parentNode.removeChild(button)
+        }, 1000)
     }
     preload() {
         this.load.setBaseURL('/')
